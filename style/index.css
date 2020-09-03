@@ -1,1 +1,141 @@
-/* Add CSS styling here */
+/*import fonts -- font-family: 'Josefin Sans', sans-serif;
+font-family: 'Long Cang', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Long+Cang&display=swap');
+
+
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+* {
+    box-sizing: border-box;
+    max-width:100%;
+}
+/*General Styles*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 3rem;
+    font-family: 'Long Cang', cursive;
+}
+
+h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+    font-size: 5rem;
+}
+
+a {
+    
+    text-decoration: none;
+    color: white;
+    padding: 0 2%;
+}
+/*Styles for the header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+   
+}
+
+nav {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav {
+    display: inline-block;
+    width: 20vw;
+    background-color: grey;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+
+/*Section Styles*/
+
+.section-height100vh {
+    display: flex;
+    justify-content: center;
+    background: url('https://picsum.photos/800');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 3%;
+}
+
+.textandbutton {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+}
+
+.button {
+    color: white;
+    background-color: dimgray;
+    padding: 1%;
+    border-radius: 10px;
+    
+    
+}
+
+/* Projects Section Styles*/
+
+.project1, .project2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1%;
+}
+
+
+
+
+/*Footer Styles*/
+.twitter {
+    padding-top: 2%;
+    width: 5%;
+    
+}
+
+.footerbutton {
+    display: flex;
+    justify-content: center;
+   
+    width: 50vw;
+}
+
+footer {
+    background-color: teal;
+    padding: 3%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+}
